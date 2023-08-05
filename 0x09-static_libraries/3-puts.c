@@ -1,19 +1,14 @@
 #include "main.h"
-
-/**
- * _puts - Escribir un texto
- *
- * @str: This is my entry
- *
- */
-
 void _puts(char *str)
+#include<stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	int a;
-
-	for (a = 0; str[a] != '\0'; a++)
-	{
-		_putchar(str[a]);
-	}
-	_putchar('\n');
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
+
