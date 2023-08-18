@@ -4,14 +4,14 @@
 #include <stdarg.h>
 
 /**
- *  * struct print - struct for printing different types
- *   * @param: format specifier
- *    * @f: function to print
- *     */
+ * struct print - struct for printing different types
+ * @param: format specifier
+ * @f: function to print
+ */
 typedef struct print
 {
-		char *param;
-			void (*f)(va_list);
+	char *param;
+	void (*f)(va_list);
 } print_t;
 
 int sum_them_all(const unsigned int n, ...);
