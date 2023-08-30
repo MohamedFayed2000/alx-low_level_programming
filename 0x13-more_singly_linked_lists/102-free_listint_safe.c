@@ -49,4 +49,4 @@ size_t free_listint_safe(listint_t **h)
 	free_listnode(nodes);
 	/* return number of nodes */
 	return (count);
-}
+}}
